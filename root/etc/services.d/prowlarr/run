@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+
+cd /app/prowlarr/bin || exit
+
+exec \
+    s6-setuidgid abc /app/prowlarr/bin/Prowlarr \
+    -nobrowser -data=/config
