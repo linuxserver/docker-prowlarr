@@ -66,6 +66,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | develop | Prowlarr releases from their develop branch |
 | nightly | Prowlarr releases from their nightly branch |
+| nightly-alpine | Prowlarr releases from their nightly branch using our Alpine baseimage |
 
 ## Application Setup
 
@@ -234,4 +235,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.12.21:** - Added nightly-alpine branch.
 * **06.06.21:** - Initial release of `develop` and `nightly` tags.
