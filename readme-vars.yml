@@ -18,6 +18,7 @@ development_versions: true
 development_versions_items:
   - { tag: "develop", desc: "Prowlarr releases from their develop branch" }
   - { tag: "nightly", desc: "Prowlarr releases from their nightly branch" }
+  - { tag: "nightly-alpine", desc: "Prowlarr releases from their nightly branch using our Alpine baseimage" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -43,4 +44,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "28.12.21:", desc: "Add nightly-alpine branch." }
   - { date: "06.06.21:", desc: "Initial realease." }
