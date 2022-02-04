@@ -233,6 +233,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **28.12.21:** - rebase nightly branch to Alpine, deprecate nightly-alpine branch.
+* **28.12.21:** - Rebase nightly branch to Alpine, deprecate nightly-alpine branch.
 * **28.12.21:** - Add nightly-alpine branch.
 * **06.06.21:** - Initial realease.
