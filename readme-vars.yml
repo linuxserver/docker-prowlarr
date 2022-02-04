@@ -7,6 +7,11 @@ project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is a indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
+project_deprecation_status: true
+project_deprecation_message: |
+  Our standard nightly tag is now Alpine based:
+  https://github.com/linuxserver/docker-prowlarr
+
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest" }
@@ -18,7 +23,6 @@ development_versions: true
 development_versions_items:
   - { tag: "develop", desc: "Prowlarr releases from their develop branch" }
   - { tag: "nightly", desc: "Prowlarr releases from their nightly branch" }
-  - { tag: "nightly-alpine", desc: "Prowlarr releases from their nightly branch using our Alpine baseimage" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -44,5 +48,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "04.02.22:", desc: "Deprecate nightly-alpine branch." }
   - { date: "28.12.21:", desc: "Add nightly-alpine branch." }
   - { date: "06.06.21:", desc: "Initial realease." }
