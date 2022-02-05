@@ -27,6 +27,12 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+Our standard nightly tag is now Alpine based:
+https://github.com/linuxserver/docker-prowlarr
+
 # [linuxserver/prowlarr](https://github.com/linuxserver/docker-prowlarr)
 
 [![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fprowlarr?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fprowlarr)
@@ -66,7 +72,6 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | develop | Prowlarr releases from their develop branch |
 | nightly | Prowlarr releases from their nightly branch |
-| nightly-alpine | Prowlarr releases from their nightly branch using our Alpine baseimage |
 
 ## Application Setup
 
@@ -233,5 +238,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **04.02.22:** - Deprecate nightly-alpine branch.
 * **28.12.21:** - Add nightly-alpine branch.
 * **06.06.21:** - Initial realease.
