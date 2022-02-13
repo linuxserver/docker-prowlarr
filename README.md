@@ -85,7 +85,7 @@ Here are some example snippets to help you get started creating a container.
 version: "2.1"
 services:
   prowlarr:
-    image: lscr.io/linuxserver/prowlarr
+    image: lscr.io/linuxserver/prowlarr:tag #Specify develop or nightly tag
     container_name: prowlarr
     environment:
       - PUID=1000
