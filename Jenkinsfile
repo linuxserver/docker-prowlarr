@@ -24,7 +24,7 @@ pipeline {
     DOCKERHUB_IMAGE = 'linuxserver/prowlarr'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/prowlarr'
     PR_DOCKERHUB_IMAGE = 'lspipepr/prowlarr'
-    DIST_IMAGE = 'ubuntu'
+    DIST_IMAGE = 'alpine'
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
@@ -104,7 +104,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL "https://prowlarr.servarr.com/v1/update/develop/changes?runtime=netcore&os=linux" | jq -r '.[0].version' ''',
+            script: ''' curl -sL "https://prowlarr.servarr.com/v1/update/develop/changes?runtime=netcore&os=linuxmusl" | jq -r '.[0].version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
