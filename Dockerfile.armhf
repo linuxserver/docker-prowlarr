@@ -26,7 +26,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/prowlarr.tar.gz -L \
-    "https://prowlarr.servarr.com/v1/update/${PROWLARR_BRANCH}/updatefile?version=${PROWLARR_RELEASE}&os=linuxmusl&runtime=netcore&arch=x64" && \
+    "https://prowlarr.servarr.com/v1/update/${PROWLARR_BRANCH}/updatefile?version=${PROWLARR_RELEASE}&os=linuxmusl&runtime=netcore&arch=arm" && \
   tar xzf \
     /tmp/prowlarr.tar.gz -C \
     /app/prowlarr/bin --strip-components=1 && \
