@@ -30,7 +30,7 @@ RUN \
   tar xzf \
     /tmp/prowlarr.tar.gz -C \
     /app/prowlarr/bin --strip-components=1 && \
-  echo -e "UpdateMethod=docker\nBranch=${PROWLARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)\nPackageGlobalMessage=Warn: This image is now based on Alpine. Custom scripts using apt-get will need to be updated to use apk" > /app/prowlarr/package_info && \
+  echo -e "UpdateMethod=docker\nBranch=${PROWLARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)" > /app/prowlarr/package_info && \
   echo "**** cleanup ****" && \
   rm -rf \
     /app/prowlarr/bin/prowlarr.Update \
