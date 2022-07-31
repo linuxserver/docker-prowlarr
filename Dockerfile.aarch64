@@ -33,7 +33,7 @@ RUN \
   echo -e "UpdateMethod=docker\nBranch=${PROWLARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)" > /app/prowlarr/package_info && \
   echo "**** cleanup ****" && \
   rm -rf \
-    /app/prowlarr/bin/prowlarr.Update \
+    /app/prowlarr/bin/Prowlarr.Update \
     /tmp/* \
     /var/tmp/*
 
