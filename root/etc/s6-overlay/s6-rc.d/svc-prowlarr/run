@@ -2,5 +2,5 @@
 
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 9696" \
-        cd /app/prowlarr/bin s6-setuidgid abc /app/lidaprowlarrrr/bin/Lidarr \
+        cd /app/prowlarr/bin s6-setuidgid abc /app/prowlarr/bin/Prowlarr \
         -nobrowser -data=/config
