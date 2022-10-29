@@ -43,6 +43,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.10.22:", desc: "Rebase nightly to Alpine 3.16, migrate to s6v3." }
   - { date: "04.02.22:", desc: "Rebase nightly branch to Alpine." }
   - { date: "28.12.21:", desc: "Add nightly-alpine branch." }
   - { date: "06.06.21:", desc: "Initial realease." }
