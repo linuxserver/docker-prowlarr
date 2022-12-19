@@ -2,14 +2,14 @@ name: External Trigger Scheduler
 
 on:
   schedule:
-    - cron:  '35 * * * *'
+    - cron:  '11 * * * *'
   workflow_dispatch:
 
 jobs:
   external-trigger-scheduler:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.3
+      - uses: actions/checkout@v3.1.0
         with:
           fetch-depth: '0'
 
@@ -23,17 +23,17 @@ jobs:
           do
             br=$(echo "$br" | sed 's|origin/||g')
             echo "**** Evaluating branch ${br} ****"
-            ls_branch=$(curl -sX GET https://raw.githubusercontent.com/linuxserver/docker-Prowlarr/${br}/jenkins-vars.yml \
+            ls_branch=$(curl -sX GET https://raw.githubusercontent.com/linuxserver/docker-prowlarr/${br}/jenkins-vars.yml \
               | docker run --rm -i --entrypoint yq ghcr.io/linuxserver/yq -r .ls_branch)
             if [ "$br" == "$ls_branch" ]; then
               echo "**** Branch ${br} appears to be live; checking workflow. ****"
-              if curl -sfX GET https://raw.githubusercontent.com/linuxserver/docker-Prowlarr/${br}/.github/workflows/external_trigger.yml > /dev/null 2>&1; then
+              if curl -sfX GET https://raw.githubusercontent.com/linuxserver/docker-prowlarr/${br}/.github/workflows/external_trigger.yml > /dev/null 2>&1; then
                 echo "**** Workflow exists. Triggering external trigger workflow for branch ${br} ****."
                 curl -iX POST \
                   -H "Authorization: token ${{ secrets.CR_PAT }}" \
                   -H "Accept: application/vnd.github.v3+json" \
                   -d "{\"ref\":\"refs/heads/${br}\"}" \
-                  https://api.github.com/repos/linuxserver/docker-Prowlarr/actions/workflows/external_trigger.yml/dispatches
+                  https://api.github.com/repos/linuxserver/docker-prowlarr/actions/workflows/external_trigger.yml/dispatches
               else
                 echo "**** Workflow doesn't exist; skipping trigger. ****"
               fi

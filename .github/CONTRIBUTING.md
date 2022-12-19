@@ -1,10 +1,10 @@
-# Contributing to Prowlarr
+# Contributing to prowlarr
 
 ## Gotchas
 
 * While contributing make sure to make all your changes before creating a Pull Request, as our pipeline builds each commit after the PR is open.
 * Read, and fill the Pull Request template
-  * If this is a fix for a typo in code or documentation in the README please file an issue
+  * If this is a fix for a typo (in code, documentation, or the README) please file an issue and let us sort it out. We do not need a PR
   * If the PR is addressing an existing issue include, closes #\<issue number>, in the body of the PR commit message
 * If you want to discuss changes, you can also bring it up in [#dev-talk](https://discordapp.com/channels/354974912613449730/757585807061155840) in our [Discord server](https://discord.gg/YWrKVTn)
 
@@ -24,10 +24,10 @@
 ## Readme
 
 If you would like to change our readme, please __**do not**__ directly edit the readme, as it is auto-generated on each commit.
-Instead edit the [readme-vars.yml](https://github.com/linuxserver/docker-Prowlarr/edit/nightly/readme-vars.yml).
+Instead edit the [readme-vars.yml](https://github.com/linuxserver/docker-prowlarr/edit/main/readme-vars.yml).
 
 These variables are used in a template for our [Jenkins Builder](https://github.com/linuxserver/docker-jenkins-builder) as part of an ansible play.
-Most of these variables are also carried over to [docs.linuxserver.io](https://docs.linuxserver.io/images/docker-Prowlarr)
+Most of these variables are also carried over to [docs.linuxserver.io](https://docs.linuxserver.io/images/docker-prowlarr)
 
 ### Fixing typos or clarify the text in the readme
 
@@ -97,12 +97,12 @@ If you are proposing additional packages to be added, ensure that you added the 
 ### Testing your changes
 
 ```bash
-git clone https://github.com/linuxserver/docker-Prowlarr.git
-cd docker-Prowlarr
+git clone https://github.com/linuxserver/docker-prowlarr.git
+cd docker-prowlarr
 docker build \
   --no-cache \
   --pull \
-  -t linuxserver/Prowlarr:latest .
+  -t linuxserver/prowlarr:latest .
 ```
 
 The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
@@ -115,7 +115,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Update the changelog
 
-If you are modifying the Dockerfiles or any of the startup scripts in [root](https://github.com/linuxserver/docker-Prowlarr/tree/nightly/root), add an entry to the changelog
+If you are modifying the Dockerfiles or any of the startup scripts in [root](https://github.com/linuxserver/docker-prowlarr/tree/main/root), add an entry to the changelog
 
 ```yml
 changelogs:
