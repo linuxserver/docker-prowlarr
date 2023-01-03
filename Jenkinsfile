@@ -33,7 +33,7 @@ pipeline {
     CI_DELAY='120'
     CI_DOCKERENV='TZ=US/Pacific'
     CI_AUTH='user:password'
-    CI_WEBPATH=''
+    CI_WEBPATH='/system/status'
   }
   stages {
     // Setup all the basic environment variables needed for the build
@@ -916,7 +916,7 @@ pipeline {
                      "target_commitish": "main",\
                      "name": "'${META_TAG}'",\
                      "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n\\n**Remote Changes:**\\n\\n' > start
-              printf '","draft": false,"prerelease": }' >> releasebody.json
+              printf '","draft": false,"prerelease": false}' >> releasebody.json
               paste -d'\\0' start releasebody.json > releasebody.json.done
               curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST https://api.github.com/repos/${LS_USER}/${LS_REPO}/releases -d @releasebody.json.done'''
       }
