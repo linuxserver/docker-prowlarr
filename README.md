@@ -233,6 +233,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **31.12.22:** - Publish stable relase.
+* **03.01.23:** - Publish stable release.
 * **20.02.22:** - Rebase develop branch to Alpine.
 * **06.06.21:** - Initial realease.
