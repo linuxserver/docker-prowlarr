@@ -10,7 +10,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="Roxedus,thespad"
 
 # environment settings
-ARG PROWLARR_BRANCH="develop"
+ARG PROWLARR_BRANCH="master"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
 RUN \
