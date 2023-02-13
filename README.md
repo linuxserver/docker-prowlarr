@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Version Tags
 
@@ -67,7 +67,6 @@ This image provides various versions that are available via tags. Please read th
 | latest | ❌ | |
 | develop | ✅ | Prowlarr releases from their develop branch |
 | nightly | ✅ | Prowlarr releases from their nightly branch |
-
 ## Application Setup
 
 Access the webui at `<your-ip>:9696`, for more information check out [Prowlarr](https://github.com/Prowlarr/Prowlarr).
@@ -90,7 +89,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
     volumes:
       - /path/to/data:/config
     ports:
@@ -105,11 +104,12 @@ docker run -d \
   --name=prowlarr \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -p 9696:9696 \
   -v /path/to/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:develop
+
 ```
 
 ## Parameters
@@ -121,7 +121,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 9696` | The port for the Prowlarr webinterface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Prowlarr |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-v /config` | Database and Prowlarr configs |
 
 ## Environment variables from files (Docker secrets)
