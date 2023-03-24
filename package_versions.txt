@@ -87,8 +87,8 @@ Portable.BouncyCastle                                                          1
 ReusableTasks                                                                  2.0.0                  dotnet  
 Sentry                                                                         3.24.1                 dotnet  
 SharpZipLib                                                                    1.3.3                  dotnet  
-Swashbuckle.AspNetCore.Swagger                                                 6.4.0                  dotnet  
-Swashbuckle.AspNetCore.SwaggerGen                                              6.4.0                  dotnet  
+Swashbuckle.AspNetCore.Swagger                                                 6.5.0                  dotnet  
+Swashbuckle.AspNetCore.SwaggerGen                                              6.5.0                  dotnet  
 System.AppContext                                                              4.3.0                  dotnet  
 System.Buffers                                                                 4.5.1                  dotnet  
 System.Collections                                                             4.3.0                  dotnet  
