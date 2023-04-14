@@ -27,8 +27,8 @@ FluentMigrator.Runner.SqlServerCe                                              3
 FluentValidation                                                               8.6.2                  dotnet  
 ImpromptuInterface                                                             7.0.1                  dotnet  
 MailKit                                                                        3.6.0                  dotnet  
-Microsoft.AspNetCore.Cryptography.Internal                                     6.0.13                 dotnet  
-Microsoft.AspNetCore.Cryptography.KeyDerivation                                6.0.13                 dotnet  
+Microsoft.AspNetCore.Cryptography.Internal                                     6.0.16                 dotnet  
+Microsoft.AspNetCore.Cryptography.KeyDerivation                                6.0.16                 dotnet  
 Microsoft.AspNetCore.WebUtilities                                              2.2.0                  dotnet  
 Microsoft.CSharp                                                               4.5.0                  dotnet  
 Microsoft.Data.SqlClient                                                       2.1.2                  dotnet  
