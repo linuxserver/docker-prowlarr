@@ -6,6 +6,7 @@ custom_version_command: curl -sL "https://prowlarr.servarr.com/v1/update/master/
 release_type: stable
 release_tag: latest
 ls_branch: main
+build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'PROWLARR_RELEASE'
   - LS_USER = 'linuxserver'
