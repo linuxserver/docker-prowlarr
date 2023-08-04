@@ -180,14 +180,14 @@ NLog for NetStandard 2.0                                    5.2.0.1813          
 NLog.Extensions.Logging for .NET 6                          5.3.0.360               dotnet  
 Npgsql                                                      5.0.11.0                dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Prowlarr                                                    1.8.1.3824              dotnet  
-Prowlarr.Api.V1                                             1.8.1.3824              dotnet  
-Prowlarr.Common                                             1.8.1.3824              dotnet  
-Prowlarr.Core                                               1.8.1.3824              dotnet  
-Prowlarr.Host                                               1.8.1.3824              dotnet  
-Prowlarr.Http                                               1.8.1.3824              dotnet  
-Prowlarr.Mono                                               1.8.1.3824              dotnet  
-Prowlarr.SignalR                                            1.8.1.3824              dotnet  
+Prowlarr                                                    1.8.1.3826              dotnet  
+Prowlarr.Api.V1                                             1.8.1.3826              dotnet  
+Prowlarr.Common                                             1.8.1.3826              dotnet  
+Prowlarr.Core                                               1.8.1.3826              dotnet  
+Prowlarr.Host                                               1.8.1.3826              dotnet  
+Prowlarr.Http                                               1.8.1.3826              dotnet  
+Prowlarr.Mono                                               1.8.1.3826              dotnet  
+Prowlarr.SignalR                                            1.8.1.3826              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.29.1.0                dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                 dotnet  
