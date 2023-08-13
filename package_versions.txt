@@ -6,25 +6,25 @@ Dapper                                                      2.0.123.33578       
 DryIoc netstandard2.1                                       5.3.4.0                 dotnet  
 DryIoc.Microsoft.DependencyInjection netstandard2.0         6.1.1.0                 dotnet  
 Dynamitey                                                   2.0.9.136               dotnet  
-FluentMigrator                                              3.3.2.0                 dotnet  
-FluentMigrator.Abstractions                                 3.3.2.0                 dotnet  
-FluentMigrator.Extensions.Oracle                            3.3.2.0                 dotnet  
-FluentMigrator.Extensions.Postgres                          3.3.2.0                 dotnet  
-FluentMigrator.Extensions.SqlAnywhere                       3.3.2.0                 dotnet  
-FluentMigrator.Extensions.SqlServer                         3.3.2.0                 dotnet  
-FluentMigrator.Runner                                       3.3.2.0                 dotnet  
-FluentMigrator.Runner.Core                                  3.3.2.0                 dotnet  
-FluentMigrator.Runner.Db2                                   3.3.2.0                 dotnet  
-FluentMigrator.Runner.Firebird                              3.3.2.0                 dotnet  
-FluentMigrator.Runner.Hana                                  3.3.2.0                 dotnet  
-FluentMigrator.Runner.MySql                                 3.3.2.0                 dotnet  
-FluentMigrator.Runner.Oracle                                3.3.2.0                 dotnet  
-FluentMigrator.Runner.Postgres                              3.3.2.0                 dotnet  
-FluentMigrator.Runner.Redshift                              3.3.2.0                 dotnet  
-FluentMigrator.Runner.SQLite                                3.3.2.0                 dotnet  
-FluentMigrator.Runner.SqlAnywhere                           3.3.2.0                 dotnet  
-FluentMigrator.Runner.SqlServer                             3.3.2.0                 dotnet  
-FluentMigrator.Runner.SqlServerCe                           3.3.2.0                 dotnet  
+FluentMigrator                                              3.3.2.9                 dotnet  
+FluentMigrator.Abstractions                                 3.3.2.9                 dotnet  
+FluentMigrator.Extensions.Oracle                            3.3.2.9                 dotnet  
+FluentMigrator.Extensions.Postgres                          3.3.2.9                 dotnet  
+FluentMigrator.Extensions.SqlAnywhere                       3.3.2.9                 dotnet  
+FluentMigrator.Extensions.SqlServer                         3.3.2.9                 dotnet  
+FluentMigrator.Runner                                       3.3.2.9                 dotnet  
+FluentMigrator.Runner.Core                                  3.3.2.9                 dotnet  
+FluentMigrator.Runner.Db2                                   3.3.2.9                 dotnet  
+FluentMigrator.Runner.Firebird                              3.3.2.9                 dotnet  
+FluentMigrator.Runner.Hana                                  3.3.2.9                 dotnet  
+FluentMigrator.Runner.MySql                                 3.3.2.9                 dotnet  
+FluentMigrator.Runner.Oracle                                3.3.2.9                 dotnet  
+FluentMigrator.Runner.Postgres                              3.3.2.9                 dotnet  
+FluentMigrator.Runner.Redshift                              3.3.2.9                 dotnet  
+FluentMigrator.Runner.SQLite                                3.3.2.9                 dotnet  
+FluentMigrator.Runner.SqlAnywhere                           3.3.2.9                 dotnet  
+FluentMigrator.Runner.SqlServer                             3.3.2.9                 dotnet  
+FluentMigrator.Runner.SqlServerCe                           3.3.2.9                 dotnet  
 FluentValidation                                            9.5.4.0                 dotnet  
 ICSharpCode.SharpZipLib                                     1.4.2.13                dotnet  
 ImpromptuInterface                                          7.0.1.0                 dotnet  
@@ -178,16 +178,16 @@ MonoTorrent                                                 2.0.7               
 NLog Syslog target                                          7.0.0.0                 dotnet  
 NLog for NetStandard 2.0                                    5.2.0.1813              dotnet  
 NLog.Extensions.Logging for .NET 6                          5.3.0.360               dotnet  
-Npgsql                                                      5.0.11.0                dotnet  
+Npgsql                                                      6.0.9.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Prowlarr                                                    1.8.1.3837              dotnet  
-Prowlarr.Api.V1                                             1.8.1.3837              dotnet  
-Prowlarr.Common                                             1.8.1.3837              dotnet  
-Prowlarr.Core                                               1.8.1.3837              dotnet  
-Prowlarr.Host                                               1.8.1.3837              dotnet  
-Prowlarr.Http                                               1.8.1.3837              dotnet  
-Prowlarr.Mono                                               1.8.1.3837              dotnet  
-Prowlarr.SignalR                                            1.8.1.3837              dotnet  
+Prowlarr                                                    1.8.2.3860              dotnet  
+Prowlarr.Api.V1                                             1.8.2.3860              dotnet  
+Prowlarr.Common                                             1.8.2.3860              dotnet  
+Prowlarr.Core                                               1.8.2.3860              dotnet  
+Prowlarr.Host                                               1.8.2.3860              dotnet  
+Prowlarr.Http                                               1.8.2.3860              dotnet  
+Prowlarr.Mono                                               1.8.2.3860              dotnet  
+Prowlarr.SignalR                                            1.8.2.3860              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.29.1.0                dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                 dotnet  
@@ -368,7 +368,7 @@ YamlDotNet                                                  13.0.0.0            
 alpine-baselayout                                           3.4.3-r1                apk     
 alpine-baselayout-data                                      3.4.3-r1                apk     
 alpine-keys                                                 2.4-r1                  apk     
-alpine-release                                              3.18.2-r0               apk     
+alpine-release                                              3.18.3-r0               apk     
 apk-tools                                                   2.14.0-r2               apk     
 bash                                                        5.2.15-r5               apk     
 brotli-libs                                                 1.0.9-r14               apk     
