@@ -180,14 +180,14 @@ NLog for NetStandard 2.0                                    5.2.0.1813          
 NLog.Extensions.Logging for .NET 6                          5.3.0.360               dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Prowlarr                                                    1.9.1.3977              dotnet  
-Prowlarr.Api.V1                                             1.9.1.3977              dotnet  
-Prowlarr.Common                                             1.9.1.3977              dotnet  
-Prowlarr.Core                                               1.9.1.3977              dotnet  
-Prowlarr.Host                                               1.9.1.3977              dotnet  
-Prowlarr.Http                                               1.9.1.3977              dotnet  
-Prowlarr.Mono                                               1.9.1.3977              dotnet  
-Prowlarr.SignalR                                            1.9.1.3977              dotnet  
+Prowlarr                                                    1.9.1.3981              dotnet  
+Prowlarr.Api.V1                                             1.9.1.3981              dotnet  
+Prowlarr.Common                                             1.9.1.3981              dotnet  
+Prowlarr.Core                                               1.9.1.3981              dotnet  
+Prowlarr.Host                                               1.9.1.3981              dotnet  
+Prowlarr.Http                                               1.9.1.3981              dotnet  
+Prowlarr.Mono                                               1.9.1.3981              dotnet  
+Prowlarr.SignalR                                            1.9.1.3981              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.29.1.0                dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                 dotnet  
@@ -385,7 +385,7 @@ libacl                                                      2.3.1-r3            
 libattr                                                     2.5.1-r4                apk     
 libbsd                                                      0.11.7-r1               apk     
 libc-utils                                                  0.7.2-r5                apk     
-libcrypto3                                                  3.1.2-r0                apk     
+libcrypto3                                                  3.1.3-r0                apk     
 libcurl                                                     8.2.1-r0                apk     
 libgcc                                                      12.2.1_git20220924-r10  apk     
 libgcrypt                                                   1.10.2-r1               apk     
