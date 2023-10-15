@@ -180,14 +180,14 @@ NLog for NetStandard 2.0                                    5.2.0.1813          
 NLog.Extensions.Logging for .NET 6                          5.3.0.360               dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0                 dotnet  
-Prowlarr                                                    1.9.4.4033              dotnet  
-Prowlarr.Api.V1                                             1.9.4.4033              dotnet  
-Prowlarr.Common                                             1.9.4.4033              dotnet  
-Prowlarr.Core                                               1.9.4.4033              dotnet  
-Prowlarr.Host                                               1.9.4.4033              dotnet  
-Prowlarr.Http                                               1.9.4.4033              dotnet  
-Prowlarr.Mono                                               1.9.4.4033              dotnet  
-Prowlarr.SignalR                                            1.9.4.4033              dotnet  
+Prowlarr                                                    1.9.4.4035              dotnet  
+Prowlarr.Api.V1                                             1.9.4.4035              dotnet  
+Prowlarr.Common                                             1.9.4.4035              dotnet  
+Prowlarr.Core                                               1.9.4.4035              dotnet  
+Prowlarr.Host                                               1.9.4.4035              dotnet  
+Prowlarr.Http                                               1.9.4.4035              dotnet  
+Prowlarr.Mono                                               1.9.4.4035              dotnet  
+Prowlarr.SignalR                                            1.9.4.4035              dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.29.1.0                dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                 dotnet  
@@ -372,12 +372,12 @@ alpine-release                                              3.18.4-r0           
 apk-tools                                                   2.14.0-r2               apk     
 bash                                                        5.2.15-r5               apk     
 brotli-libs                                                 1.0.9-r14               apk     
-busybox                                                     1.36.1-r2               apk     
-busybox-binsh                                               1.36.1-r2               apk     
+busybox                                                     1.36.1-r4               apk     
+busybox-binsh                                               1.36.1-r4               apk     
 ca-certificates                                             20230506-r0             apk     
 ca-certificates-bundle                                      20230506-r0             apk     
 coreutils                                                   9.3-r1                  apk     
-curl                                                        8.3.0-r0                apk     
+curl                                                        8.4.0-r0                apk     
 icu-data-en                                                 73.2-r2                 apk     
 icu-libs                                                    73.2-r2                 apk     
 jq                                                          1.6-r3                  apk     
@@ -386,7 +386,7 @@ libattr                                                     2.5.1-r4            
 libbsd                                                      0.11.7-r1               apk     
 libc-utils                                                  0.7.2-r5                apk     
 libcrypto3                                                  3.1.3-r0                apk     
-libcurl                                                     8.3.0-r0                apk     
+libcurl                                                     8.4.0-r0                apk     
 libgcc                                                      12.2.1_git20220924-r10  apk     
 libgcrypt                                                   1.10.2-r1               apk     
 libgpg-error                                                1.47-r1                 apk     
@@ -407,7 +407,7 @@ musl-utils                                                  1.2.4-r2            
 ncurses-terminfo-base                                       6.4_p20230506-r0        apk     
 netcat-openbsd                                              1.219-r1                apk     
 netstandard                                                 6.0.2123.36311          dotnet  
-nghttp2-libs                                                1.55.1-r0               apk     
+nghttp2-libs                                                1.57.0-r0               apk     
 oniguruma                                                   6.9.8-r1                apk     
 procps-ng                                                   4.0.4-r0                apk     
 readline                                                    8.2.1-r1                apk     
@@ -415,7 +415,7 @@ scanelf                                                     1.3.7-r1            
 shadow                                                      4.13-r4                 apk     
 skalibs                                                     2.13.1.1-r1             apk     
 sqlite-libs                                                 3.41.2-r2               apk     
-ssl_client                                                  1.36.1-r2               apk     
+ssl_client                                                  1.36.1-r4               apk     
 tzdata                                                      2023c-r1                apk     
 utmps-libs                                                  0.1.2.1-r1              apk     
 xmlstarlet                                                  1.6.1-r2                apk     
