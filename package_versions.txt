@@ -162,7 +162,7 @@ NLog.Extensions.Logging v5.3.0                              5.3.0.360           
 NLog.Targets.Syslog                                         7.0.0.0                                                             dotnet  
 Npgsql                                                      7.0.6.0                                                             dotnet  
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9                    dotnet  
-Prowlarr                                                    1.10.5.4116                                                         dotnet  
+Prowlarr                                                    1.11.4.4173                                                         dotnet  
 ReusableTasks                                               2.0.0-master+2aa9a10                                                dotnet  
 Sentry                                                      3.29.1.0                                                            dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                             dotnet  
@@ -339,7 +339,7 @@ System.Xml.XPath.XDocument                                  6.0.2523.51912      
 System.Xml.XmlDocument                                      6.0.2523.51912                                                      dotnet  
 System.Xml.XmlSerializer                                    6.0.2523.51912                                                      dotnet  
 WindowsBase                                                 6.0.2523.51912                                                      dotnet  
-YamlDotNet                                                  13.7.1.0                                                            dotnet  
+YamlDotNet                                                  13.1.1.0                                                            dotnet  
 alpine-baselayout                                           3.4.3-r1                                                            apk     
 alpine-baselayout-data                                      3.4.3-r1                                                            apk     
 alpine-keys                                                 2.4-r1                                                              apk     
@@ -391,7 +391,7 @@ shadow                                                      4.13-r4             
 skalibs                                                     2.13.1.1-r1                                                         apk     
 sqlite-libs                                                 3.41.2-r2                                                           apk     
 ssl_client                                                  1.36.1-r5                                                           apk     
-tzdata                                                      2023c-r1                                                            apk     
+tzdata                                                      2023d-r0                                                            apk     
 utmps-libs                                                  0.1.2.1-r1                                                          apk     
 xmlstarlet                                                  1.6.1-r2                                                            apk     
 xz-libs                                                     5.4.3-r0                                                            apk     
