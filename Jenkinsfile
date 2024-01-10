@@ -385,10 +385,10 @@ pipeline {
                 if [[ "${BRANCH_NAME}" == "${GH_DEFAULT_BRANCH}" ]]; then
                   if [[ $(cat ${TEMPDIR}/docker-${CONTAINER_NAME}/README.md | wc -m) > 25000 ]]; then
                     echo "Readme is longer than 25,000 characters. Syncing the lite version to Docker Hub"
-                    DH_README_SYNC_PATH="${TEMPDIR}/docker-${CONTAINER_NAME}/README.md"
+                    DH_README_SYNC_PATH="${TEMPDIR}/docker-${CONTAINER_NAME}/.jenkins-external/README.lite"
                   else
                     echo "Syncing readme to Docker Hub"
-                    DH_README_SYNC_PATH="${TEMPDIR}/docker-${CONTAINER_NAME}/.jenkins-external/README.lite"
+                    DH_README_SYNC_PATH="${TEMPDIR}/docker-${CONTAINER_NAME}/README.md"
                   fi
                   DH_TOKEN=$(curl -d '{"username":"'${DOCKERUSER}'", "password":"'${DOCKERHUB_TOKEN}'"}' -H "Content-Type: application/json" -X POST https://hub.docker.com/v2/users/login | jq -r '.token')
                   curl -s \
