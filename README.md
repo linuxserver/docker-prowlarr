@@ -90,7 +90,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
+      - /path/to/prowlarr/data:/config
     ports:
       - 9696:9696
     restart: unless-stopped
@@ -105,7 +105,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 9696:9696 \
-  -v /path/to/data:/config \
+  -v /path/to/prowlarr/data:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/prowlarr:nightly
 ```
@@ -116,7 +116,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 9696` | The port for the Prowlarr webinterface |
+| `-p 9696` | The port for the Prowlarr web UI |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
@@ -283,6 +283,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.03.24:** - Rebase to Alpine 3.19.
 * **06.06.23:** - Rebase nightly to Alpine 3.18.
 * **19.12.22:** - Rebase nightly to Alpine 3.17.
 * **27.10.22:** - Rebase nightly to Alpine 3.16, migrate to s6v3.
