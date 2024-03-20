@@ -23,16 +23,12 @@ development_versions_items:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and Prowlarr configs" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Database and Prowlarr configs" }
 
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "9696", internal_port: "9696", port_desc: "The port for the Prowlarr webinterface" }
-param_usage_include_env: true
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Prowlarr" }
-# optional env variables
-opt_param_usage_include_env: false
+  - { external_port: "9696", internal_port: "9696", port_desc: "The port for the Prowlarr web UI" }
+
 
 # application setup block
 app_setup_block_enabled: true
@@ -43,6 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "20.03.24:", desc: "Rebase to Alpine 3.19." }
   - { date: "06.06.23:", desc: "Rebase master to Alpine 3.18, deprecate armhf as per [https://www.linuxserver.io/armhf](https://www.linuxserver.io/armhf)." }
   - { date: "03.01.23:", desc: "Publish stable release." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
