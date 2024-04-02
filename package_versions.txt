@@ -162,7 +162,7 @@ NLog.Extensions.Logging v5.3.0                              5.3.0.360           
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
 Npgsql                                                      7.0.6.0                                                     dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
-Prowlarr                                                    1.16.0.4382                                                 dotnet  (+7 duplicates)   
+Prowlarr                                                    1.16.0.4384                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      3.29.1.0                                                    dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
