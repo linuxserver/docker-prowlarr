@@ -166,7 +166,7 @@ Npgsql                                                      7.0.7.0             
 Polly                                                       8.3.1.3207                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.3.1.3207                                                  dotnet                    
-Prowlarr                                                    1.18.0.4513                                                 dotnet  (+7 duplicates)   
+Prowlarr                                                    1.18.0.4519                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
@@ -383,7 +383,7 @@ libproc2                                                    4.0.4-r0            
 libssl3                                                     3.1.4-r6                                                    apk                       
 libstdc++                                                   13.2.1_git20231014-r0                                       apk                       
 libunistring                                                1.1-r2                                                      apk                       
-libxml2                                                     2.11.7-r0                                                   apk                       
+libxml2                                                     2.11.8-r0                                                   apk                       
 libxslt                                                     1.1.39-r0                                                   apk                       
 linux-pam                                                   1.5.3-r7                                                    apk                       
 mscorlib                                                    6.0.2924.17105                                              dotnet                    
