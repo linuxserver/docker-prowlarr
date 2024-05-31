@@ -6,7 +6,6 @@ custom_version_command: curl -sL "https://prowlarr.servarr.com/v1/update/master/
 release_type: stable
 release_tag: latest
 ls_branch: main
-build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'PROWLARR_RELEASE'
   - LS_USER = 'linuxserver'
@@ -22,7 +21,7 @@ repo_vars:
   - CI_PORT='9696'
   - CI_SSL='false'
   - CI_DELAY='120'
-  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_DOCKERENV=''
   - CI_AUTH=''
   - CI_WEBPATH='/system/status'
 sponsor_links:
