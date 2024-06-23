@@ -149,7 +149,7 @@ Microsoft.IdentityModel.Protocols.OpenIdConnect             6.8.0.11012235604.82
 Microsoft.IdentityModel.Tokens                              6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0  dotnet                    
 Microsoft.JSInterop                                         6.0.2924.17108                                              dotnet                    
 Microsoft.Net.Http.Headers                                  6.0.2924.17108                                              dotnet                    
-Microsoft.OpenApi                                           1.2.3.0                                                     dotnet                    
+Microsoft.OpenApi                                           1.6.14.0                                                    dotnet                    
 Microsoft.VisualBasic                                       6.0.2924.17105                                              dotnet                    
 Microsoft.VisualBasic.Core                                  11.100.2924.17105                                           dotnet                    
 Microsoft.Win32.Primitives                                  6.0.2924.17105                                              dotnet                    
@@ -166,11 +166,11 @@ Npgsql                                                      7.0.7.0             
 Polly                                                       8.4.0.3442                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.4.0.3442                                                  dotnet                    
-Prowlarr                                                    1.18.0.4543                                                 dotnet  (+7 duplicates)   
+Prowlarr                                                    1.19.0.4568                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
-Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
-Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                     dotnet                    
+Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
+Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
 System                                                      6.0.2924.17105                                              dotnet                    
 System.AppContext                                           6.0.2924.17105                                              dotnet                    
 System.Buffers                                              6.0.2924.17105                                              dotnet                    
@@ -347,7 +347,7 @@ YamlDotNet                                                  13.1.1.0            
 alpine-baselayout                                           3.6.5-r0                                                    apk                       
 alpine-baselayout-data                                      3.6.5-r0                                                    apk                       
 alpine-keys                                                 2.4-r1                                                      apk                       
-alpine-release                                              3.20.0-r0                                                   apk                       
+alpine-release                                              3.20.1-r0                                                   apk                       
 apk-tools                                                   2.14.4-r0                                                   apk                       
 bash                                                        5.2.26-r0                                                   apk                       
 brotli-libs                                                 1.1.0-r2                                                    apk                       
