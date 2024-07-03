@@ -1,6 +1,9 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
+mkdir -p /run/prowlarr-temp
+
 # permissions
 lsiown -R abc:abc \
-    /config
+    /config \
+    /run/prowlarr-temp
