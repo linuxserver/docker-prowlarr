@@ -29,6 +29,8 @@ param_usage_include_ports: true
 param_ports:
   - { external_port: "9696", internal_port: "9696", port_desc: "The port for the Prowlarr web UI" }
 
+readonly_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
