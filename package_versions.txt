@@ -3,6 +3,7 @@ AngleSharp                                                  1.1.2.0             
 AngleSharp.Xml                                              0.17.0.0                                                    dotnet                    
 Bouncy Castle for .NET (netstandard2.0)                     1.9.0.1                                                     dotnet                    
 Dapper                                                      2.0.151.35995                                               dotnet                    
+Diacritical                                                 1.0.4.0                                                     dotnet                    
 DryIoc                                                      5.4.3.0                                                     dotnet                    
 DryIoc.Microsoft.DependencyInjection net6.0                 6.2.0.0                                                     dotnet                    
 Dynamitey                                                   2.0.9.136                                                   dotnet                    
@@ -168,7 +169,7 @@ Npgsql                                                      7.0.7.0             
 Polly                                                       8.4.1.3582                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.4.1.3582                                                  dotnet                    
-Prowlarr                                                    1.23.1.4708                                                 dotnet  (+7 duplicates)   
+Prowlarr                                                    1.24.3.4754                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
