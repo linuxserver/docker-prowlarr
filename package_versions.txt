@@ -97,7 +97,7 @@ Microsoft.AspNetCore.WebUtilities                           6.0.3524.46214      
 Microsoft.Bcl.AsyncInterfaces                               6.0.21.52210                                                dotnet                    
 Microsoft.Bcl.TimeProvider                                  8.0.23.53103                                                dotnet                    
 Microsoft.CSharp                                            6.0.3524.45918                                              dotnet                    
-Microsoft.Data.SqlClient                                    2.1.2+2a61e8301e9d21ada2338a9279cf27653e781757              dotnet                    
+Microsoft.Data.SqlClient                                    2.1.7+730a7d538680463c75dd8dceec5fb27d158abea4              dotnet                    
 Microsoft.Extensions.Caching.Abstractions                   6.0.21.52210                                                dotnet                    
 Microsoft.Extensions.Caching.Memory                         6.0.3524.45918                                              dotnet                    
 Microsoft.Extensions.Configuration                          6.0.322.12309                                               dotnet                    
@@ -169,7 +169,7 @@ Npgsql                                                      7.0.9.0             
 Polly                                                       8.5.0.4130                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.5.0.4130                                                  dotnet                    
-Prowlarr                                                    1.29.0.4895                                                 dotnet  (+7 duplicates)   
+Prowlarr                                                    1.29.0.4897                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
