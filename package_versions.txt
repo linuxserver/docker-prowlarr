@@ -169,7 +169,7 @@ Npgsql                                                      7.0.9.0             
 Polly                                                       8.5.0.4130                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
 Polly.Core                                                  8.5.0.4130                                                  dotnet                    
-Prowlarr                                                    1.29.2.4913                                                 dotnet  (+7 duplicates)   
+Prowlarr                                                    1.29.2.4914                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
@@ -348,8 +348,8 @@ System.Xml.XmlSerializer                                    6.0.3524.45918      
 WindowsBase                                                 6.0.3524.45918                                              dotnet                    
 YamlDotNet                                                  13.1.1.0                                                    dotnet                    
 acl-libs                                                    2.3.2-r1                                                    apk                       
-alpine-baselayout                                           3.6.8-r0                                                    apk                       
-alpine-baselayout-data                                      3.6.8-r0                                                    apk                       
+alpine-baselayout                                           3.6.8-r1                                                    apk                       
+alpine-baselayout-data                                      3.6.8-r1                                                    apk                       
 alpine-keys                                                 2.5-r0                                                      apk                       
 alpine-release                                              3.21.0-r0                                                   apk                       
 apk-tools                                                   2.14.6-r2                                                   apk                       
@@ -358,8 +358,8 @@ brotli-libs                                                 1.1.0-r2            
 busybox                                                     1.37.0-r9                                                   apk                       
 busybox-binsh                                               1.37.0-r9                                                   apk                       
 c-ares                                                      1.34.3-r0                                                   apk                       
-ca-certificates                                             20241010-r0                                                 apk                       
-ca-certificates-bundle                                      20241010-r0                                                 apk                       
+ca-certificates                                             20241121-r0                                                 apk                       
+ca-certificates-bundle                                      20241121-r0                                                 apk                       
 catatonit                                                   0.2.0-r0                                                    apk                       
 coreutils                                                   9.5-r1                                                      apk                       
 coreutils-env                                               9.5-r1                                                      apk                       
