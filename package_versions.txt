@@ -1,5 +1,5 @@
 NAME                                                        VERSION                                                     TYPE                     
-AngleSharp                                                  1.1.2.0                                                     dotnet                    
+AngleSharp                                                  1.2.0.0                                                     dotnet                    
 AngleSharp.Xml                                              0.17.0.0                                                    dotnet                    
 BouncyCastle.NET                                            2.4.0.33771                                                 dotnet                    
 Dapper                                                      2.0.151.35995                                               dotnet                    
@@ -161,15 +161,15 @@ MimeKit                                                     4.8.0.0             
 Mono.Nat                                                    3.0.1                                                       dotnet                    
 Mono.Posix.NETStandard                                      1.0.0.0                                                     dotnet                    
 MonoTorrent                                                 2.0.7                                                       dotnet                    
-NLog v5.3.3                                                 5.3.3.2683                                                  dotnet                    
-NLog.Extensions.Logging v5.3.12                             5.3.12.562                                                  dotnet                    
+NLog v5.3.4                                                 5.3.4.2778                                                  dotnet                    
+NLog.Extensions.Logging v5.3.15                             5.3.15.614                                                  dotnet                    
 NLog.Layouts.ClefJsonLayout                                 1.0.0.0                                                     dotnet                    
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
 Npgsql                                                      7.0.9.0                                                     dotnet                    
-Polly                                                       8.5.0.4130                                                  dotnet                    
+Polly                                                       8.5.1.4253                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
-Polly.Core                                                  8.5.0.4130                                                  dotnet                    
-Prowlarr                                                    1.30.1.4926                                                 dotnet  (+7 duplicates)   
+Polly.Core                                                  8.5.1.4253                                                  dotnet                    
+Prowlarr                                                    1.30.1.4928                                                 dotnet  (+7 duplicates)   
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
