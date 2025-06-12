@@ -71,9 +71,9 @@ NLog.Layouts.ClefJsonLayout                                  1.0.3              
 NLog.Targets.Syslog                                          7.0.0                dotnet  (+7 duplicates)  
 Newtonsoft.Json                                              13.0.3               dotnet  (+7 duplicates)  
 Npgsql                                                       9.0.3                dotnet  (+7 duplicates)  
-Polly                                                        8.5.2                dotnet  (+5 duplicates)  
+Polly                                                        8.6.0                dotnet  (+5 duplicates)  
 Polly.Contrib.WaitAndRetry                                   1.1.1                dotnet  (+7 duplicates)  
-Polly.Core                                                   8.5.2                dotnet  (+5 duplicates)  
+Polly.Core                                                   8.6.0                dotnet  (+5 duplicates)  
 Prowlarr                                                     1.0.0                dotnet                   
 Prowlarr.Api.V1                                              1.0.0                dotnet  (+2 duplicates)  
 Prowlarr.Common                                              1.0.0                dotnet  (+7 duplicates)  
