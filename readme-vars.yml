@@ -70,7 +70,7 @@ init_diagram: |
     svc-prowlarr -> legacy-services
   }
   Base Images: {
-    "baseimage-alpine:3.21"
+    "baseimage-alpine:3.22"
   }
   "prowlarr:develop" <- Base Images
 # changelog
