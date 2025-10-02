@@ -60,7 +60,7 @@ Microsoft.IdentityModel.Tokens                               7.5.0              
 Microsoft.Net.Http.Headers                                   8.0.16               dotnet  (+5 duplicates)  
 Microsoft.OpenApi                                            1.6.23               dotnet  (+2 duplicates)  
 Microsoft.SqlServer.Server                                   1.0.0                dotnet  (+5 duplicates)  
-Microsoft.Win32.SystemEvents                                 4.7.0                dotnet  (+5 duplicates)  
+Microsoft.Win32.SystemEvents                                 8.0.0                dotnet  (+5 duplicates)  
 MimeKit                                                      4.13.0               dotnet  (+5 duplicates)  
 Mono.Nat                                                     3.0.1                dotnet  (+5 duplicates)  
 Mono.Posix.NETStandard                                       5.20.1.34-servarr20  dotnet                   
@@ -113,7 +113,7 @@ System.Configuration.ConfigurationManager                    8.0.1              
 System.Data.SQLite                                           2.0.1                dotnet  (+7 duplicates)  
 System.Diagnostics.DiagnosticSource                          6.0.1                dotnet  (+4 duplicates)  
 System.Diagnostics.EventLog                                  8.0.1                dotnet  (+6 duplicates)  
-System.Drawing.Common                                        4.7.0                dotnet  (+5 duplicates)  
+System.Drawing.Common                                        8.0.0                dotnet  (+5 duplicates)  
 System.Formats.Asn1                                          8.0.1                dotnet  (+4 duplicates)  
 System.IO                                                    4.3.0                dotnet  (+5 duplicates)  
 System.IO.FileSystem.AccessControl                           5.0.0                dotnet  (+5 duplicates)  
