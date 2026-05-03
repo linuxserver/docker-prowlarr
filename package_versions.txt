@@ -3,7 +3,7 @@ AngleSharp                                                   1.3.0              
 AngleSharp.Xml                                               1.0.0                dotnet  (+5 duplicates)  
 Azure.Core                                                   1.47.1               dotnet  (+5 duplicates)  
 Azure.Identity                                               1.14.2               dotnet  (+5 duplicates)  
-BouncyCastle.Cryptography                                    2.6.1                dotnet  (+5 duplicates)  
+BouncyCastle.Cryptography                                    2.6.2                dotnet  (+5 duplicates)  
 Dapper                                                       2.1.66               dotnet  (+5 duplicates)  
 Diacritical.Net                                              1.0.4                dotnet  (+5 duplicates)  
 DryIoc.Microsoft.DependencyInjection                         6.2.0                dotnet  (+1 duplicate)   
@@ -18,7 +18,7 @@ FluentMigrator.Runner.SQLite                                 6.2.0              
 FluentValidation                                             9.5.4                dotnet  (+5 duplicates)  
 IPAddressRange                                               6.2.0                dotnet  (+7 duplicates)  
 ImpromptuInterface                                           8.0.6                dotnet  (+3 duplicates)  
-MailKit                                                      4.14.0               dotnet  (+5 duplicates)  
+MailKit                                                      4.16.0               dotnet  (+5 duplicates)  
 Microsoft.AspNetCore.Cryptography.Internal                   8.0.16               dotnet  (+5 duplicates)  
 Microsoft.AspNetCore.Cryptography.KeyDerivation              8.0.16               dotnet  (+5 duplicates)  
 Microsoft.AspNetCore.WebUtilities                            8.0.16               dotnet  (+5 duplicates)  
@@ -68,7 +68,7 @@ Microsoft.Net.Http.Headers                                   8.0.16             
 Microsoft.OpenApi                                            1.6.23               dotnet  (+2 duplicates)  
 Microsoft.SqlServer.Server                                   1.0.0                dotnet  (+5 duplicates)  
 Microsoft.Win32.SystemEvents                                 8.0.0                dotnet  (+5 duplicates)  
-MimeKit                                                      4.14.0               dotnet  (+5 duplicates)  
+MimeKit                                                      4.16.0               dotnet  (+5 duplicates)  
 Mono.Nat                                                     3.0.1                dotnet  (+5 duplicates)  
 Mono.Posix.NETStandard                                       5.20.1.34-servarr20  dotnet                   
 MonoTorrent                                                  2.0.7                dotnet  (+5 duplicates)  
@@ -171,7 +171,7 @@ musl                                                         1.2.5-r23          
 musl-utils                                                   1.2.5-r23            apk                      
 ncurses-terminfo-base                                        6.5_p20251123-r0     apk                      
 netcat-openbsd                                               1.234.1-r0           apk                      
-nghttp2-libs                                                 1.68.0-r0            apk                      
+nghttp2-libs                                                 1.69.0-r0            apk                      
 nghttp3                                                      1.13.1-r0            apk                      
 oniguruma                                                    6.9.10-r0            apk                      
 procps-ng                                                    4.0.5-r0             apk                      
@@ -190,7 +190,7 @@ shadow                                                       4.18.0-r0          
 skalibs-libs                                                 2.14.4.0-r0          apk                      
 sqlite-libs                                                  3.51.2-r0            apk                      
 ssl_client                                                   1.37.0-r30           apk                      
-tzdata                                                       2026a-r0             apk                      
+tzdata                                                       2026b-r0             apk                      
 utmps-libs                                                   0.1.3.1-r0           apk                      
 xmlstarlet                                                   1.6.1-r2             apk                      
 xz-libs                                                      5.8.3-r0             apk                      
