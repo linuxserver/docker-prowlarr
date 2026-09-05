@@ -1,8 +1,6 @@
 NAME                                                         VERSION              TYPE                    
 AngleSharp                                                   1.5.2                dotnet  (+5 duplicates)  
 AngleSharp.Xml                                               1.0.0                dotnet  (+5 duplicates)  
-Azure.Core                                                   1.50.0               dotnet  (+5 duplicates)  
-Azure.Identity                                               1.17.1               dotnet  (+5 duplicates)  
 BouncyCastle.Cryptography                                    2.6.2                dotnet  (+5 duplicates)  
 Dapper                                                       2.1.79               dotnet  (+5 duplicates)  
 Diacritical.Net                                              1.0.4                dotnet  (+5 duplicates)  
@@ -22,10 +20,6 @@ MailKit                                                      4.17.0             
 Microsoft.AspNetCore.Cryptography.Internal                   8.0.27               dotnet  (+4 duplicates)  
 Microsoft.AspNetCore.Cryptography.KeyDerivation              8.0.27               dotnet  (+4 duplicates)  
 Microsoft.AspNetCore.WebUtilities                            8.0.27               dotnet  (+4 duplicates)  
-Microsoft.Bcl.AsyncInterfaces                                8.0.0                dotnet  (+5 duplicates)  
-Microsoft.Data.SqlClient                                     6.1.6                dotnet  (+5 duplicates)  
-Microsoft.Extensions.Caching.Abstractions                    8.0.0                dotnet  (+4 duplicates)  
-Microsoft.Extensions.Caching.Memory                          8.0.1                dotnet  (+4 duplicates)  
 Microsoft.Extensions.Configuration                           8.0.0                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Configuration.Abstractions              8.0.0                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Configuration.Binder                    8.0.2                dotnet  (+6 duplicates)  
@@ -45,8 +39,7 @@ Microsoft.Extensions.Hosting                                 8.0.1              
 Microsoft.Extensions.Hosting.Abstractions                    8.0.1                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Hosting.WindowsServices                 8.0.1                dotnet  (+7 duplicates)  
 Microsoft.Extensions.Logging                                 8.0.1                dotnet  (+6 duplicates)  
-Microsoft.Extensions.Logging.Abstractions                    8.0.2                dotnet  (+1 duplicate)   
-Microsoft.Extensions.Logging.Abstractions                    8.0.3                dotnet  (+4 duplicates)  
+Microsoft.Extensions.Logging.Abstractions                    8.0.2                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Logging.Configuration                   8.0.1                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Logging.Console                         8.0.1                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Logging.Debug                           8.0.1                dotnet  (+6 duplicates)  
@@ -55,19 +48,8 @@ Microsoft.Extensions.Logging.EventSource                     8.0.1              
 Microsoft.Extensions.Options                                 8.0.2                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Options.ConfigurationExtensions         8.0.0                dotnet  (+6 duplicates)  
 Microsoft.Extensions.Primitives                              8.0.0                dotnet  (+6 duplicates)  
-Microsoft.Identity.Client                                    4.84.2               dotnet  (+5 duplicates)  
-Microsoft.Identity.Client.Broker                             4.84.2               dotnet  (+5 duplicates)  
-Microsoft.Identity.Client.Extensions.Msal                    4.78.0               dotnet  (+5 duplicates)  
-Microsoft.Identity.Client.NativeInterop                      0.20.6               dotnet  (+5 duplicates)  
-Microsoft.IdentityModel.Abstractions                         8.14.0               dotnet  (+5 duplicates)  
-Microsoft.IdentityModel.JsonWebTokens                        7.7.1                dotnet  (+5 duplicates)  
-Microsoft.IdentityModel.Logging                              7.7.1                dotnet  (+5 duplicates)  
-Microsoft.IdentityModel.Protocols                            7.7.1                dotnet  (+5 duplicates)  
-Microsoft.IdentityModel.Protocols.OpenIdConnect              7.7.1                dotnet  (+5 duplicates)  
-Microsoft.IdentityModel.Tokens                               7.7.1                dotnet  (+5 duplicates)  
 Microsoft.Net.Http.Headers                                   8.0.27               dotnet  (+4 duplicates)  
 Microsoft.OpenApi                                            1.6.23               dotnet  (+2 duplicates)  
-Microsoft.SqlServer.Server                                   1.0.0                dotnet  (+5 duplicates)  
 Microsoft.Win32.SystemEvents                                 8.0.0                dotnet  (+5 duplicates)  
 MimeKit                                                      4.17.0               dotnet  (+5 duplicates)  
 Mono.Nat                                                     3.0.0                dotnet  (+5 duplicates)  
@@ -96,20 +78,15 @@ SharpZipLib                                                  1.4.2              
 SourceGear.sqlite3                                           3.53.4               dotnet  (+7 duplicates)  
 Swashbuckle.AspNetCore.Swagger                               8.1.4                dotnet  (+2 duplicates)  
 Swashbuckle.AspNetCore.SwaggerGen                            8.1.4                dotnet  (+2 duplicates)  
-System.ClientModel                                           1.8.0                dotnet  (+5 duplicates)  
 System.ComponentModel                                        4.3.0                dotnet  (+2 duplicates)  
 System.ComponentModel.Annotations                            5.0.0                dotnet  (+4 duplicates)  
-System.Configuration.ConfigurationManager                    8.0.1                dotnet  (+7 duplicates)  
 System.Data.SQLite                                           2.0.4                dotnet  (+7 duplicates)  
-System.Diagnostics.DiagnosticSource                          8.0.1                dotnet  (+4 duplicates)  
 System.Diagnostics.EventLog                                  8.0.1                dotnet  (+6 duplicates)  
 System.Drawing.Common                                        8.0.27               dotnet  (+5 duplicates)  
 System.Formats.Asn1                                          8.0.1                dotnet  (+4 duplicates)  
 System.IO                                                    4.3.0                dotnet  (+5 duplicates)  
 System.IO.FileSystem.AccessControl                           5.0.0                dotnet  (+5 duplicates)  
 System.IO.Pipelines                                          8.0.0                dotnet  (+4 duplicates)  
-System.IdentityModel.Tokens.Jwt                              7.7.1                dotnet  (+5 duplicates)  
-System.Memory.Data                                           8.0.1                dotnet  (+5 duplicates)  
 System.Private.Uri                                           4.3.2                dotnet  (+5 duplicates)  
 System.Reflection                                            4.3.0                dotnet  (+5 duplicates)  
 System.Reflection.Primitives                                 4.3.0                dotnet  (+5 duplicates)  
@@ -117,9 +94,7 @@ System.Runtime                                               4.3.0              
 System.Runtime.Loader                                        4.3.0                dotnet  (+5 duplicates)  
 System.Security.AccessControl                                5.0.0                dotnet  (+5 duplicates)  
 System.Security.Cryptography.Pkcs                            8.0.1                dotnet  (+4 duplicates)  
-System.Security.Cryptography.ProtectedData                   8.0.0                dotnet  (+7 duplicates)  
 System.Security.Principal.Windows                            5.0.0                dotnet  (+5 duplicates)  
-System.ServiceModel.Syndication                              8.0.0                dotnet  (+5 duplicates)  
 System.ServiceProcess.ServiceController                      8.0.1                dotnet  (+7 duplicates)  
 System.Text.Encoding                                         4.3.0                dotnet  (+5 duplicates)  
 System.Text.Encoding.CodePages                               8.0.0                dotnet                   
@@ -131,7 +106,7 @@ alpine-baselayout                                            3.7.2-r1           
 alpine-baselayout-data                                       3.7.2-r1             apk                      
 alpine-keys                                                  2.6-r0               apk                      
 alpine-release                                               3.24.1-r0            apk                      
-apk-tools                                                    3.0.7-r0             apk                      
+apk-tools                                                    3.0.8-r0             apk                      
 bash                                                         5.3.9-r1             apk                      
 brotli-libs                                                  1.2.0-r1             apk                      
 busybox                                                      1.37.0-r31           apk                      
@@ -144,16 +119,16 @@ coreutils                                                    9.11-r0            
 coreutils-env                                                9.11-r0              apk                      
 coreutils-fmt                                                9.11-r0              apk                      
 coreutils-sha512sum                                          9.11-r0              apk                      
-curl                                                         8.21.0-r0            apk                      
+curl                                                         8.22.0-r0            apk                      
 findutils                                                    4.10.0-r1            apk                      
 icu-data-en                                                  78.1-r0              apk                      
 icu-libs                                                     78.1-r0              apk                      
-jq                                                           1.8.1-r0             apk                      
-libapk                                                       3.0.7-r0             apk                      
+jq                                                           1.8.2-r0             apk                      
+libapk                                                       3.0.8-r0             apk                      
 libattr                                                      2.5.2-r2             apk                      
 libbsd                                                       0.12.2-r0            apk                      
 libcrypto3                                                   3.5.8-r0             apk                      
-libcurl                                                      8.21.0-r0            apk                      
+libcurl                                                      8.22.0-r0            apk                      
 libgcc                                                       15.2.0-r5            apk                      
 libidn2                                                      2.3.8-r0             apk                      
 libintl                                                      1.0-r0               apk                      
