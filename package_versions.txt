@@ -1,5 +1,5 @@
 NAME                                                         VERSION           TYPE                    
-AngleSharp                                                   1.8.6             dotnet  (+5 duplicates)  
+AngleSharp                                                   1.9.0             dotnet  (+5 duplicates)  
 AngleSharp.Xml                                               1.2.0             dotnet  (+5 duplicates)  
 BouncyCastle.Cryptography                                    2.7.0             dotnet  (+5 duplicates)  
 Dapper                                                       2.1.89            dotnet  (+5 duplicates)  
@@ -60,9 +60,9 @@ NLog.Targets.Syslog                                          7.0.0             d
 Newtonsoft.Json                                              13.0.4            dotnet  (+7 duplicates)  
 Npgsql                                                       10.0.3            dotnet  (+7 duplicates)  
 Openur.Mono.Unix                                             7.1.0.256         dotnet                   
-Polly                                                        8.8.0             dotnet  (+5 duplicates)  
+Polly                                                        8.9.0             dotnet  (+5 duplicates)  
 Polly.Contrib.WaitAndRetry                                   1.1.1             dotnet  (+7 duplicates)  
-Polly.Core                                                   8.8.0             dotnet  (+5 duplicates)  
+Polly.Core                                                   8.9.0             dotnet  (+5 duplicates)  
 Prowlarr                                                     1.0.0             dotnet                   
 Prowlarr.Api.V1                                              1.0.0             dotnet  (+2 duplicates)  
 Prowlarr.Common                                              1.0.0             dotnet  (+7 duplicates)  
@@ -102,7 +102,7 @@ coreutils                                                    9.11-r0           a
 coreutils-env                                                9.11-r0           apk                      
 coreutils-fmt                                                9.11-r0           apk                      
 coreutils-sha512sum                                          9.11-r0           apk                      
-curl                                                         8.22.0-r0         apk                      
+curl                                                         8.23.0-r0         apk                      
 findutils                                                    4.10.0-r1         apk                      
 icu-data-en                                                  78.1-r0           apk                      
 icu-libs                                                     78.1-r0           apk                      
@@ -115,7 +115,7 @@ libattr                                                      2.5.2-r2          a
 libbsd                                                       0.12.2-r0         apk                      
 libcom_err                                                   1.47.4-r0         apk                      
 libcrypto3                                                   3.5.9-r0          apk                      
-libcurl                                                      8.22.0-r0         apk                      
+libcurl                                                      8.23.0-r0         apk                      
 libgcc                                                       15.2.0-r5         apk                      
 libidn2                                                      2.3.8-r0          apk                      
 libintl                                                      1.0-r0            apk                      
